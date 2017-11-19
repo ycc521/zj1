@@ -1,0 +1,30 @@
+@charset "UTF-8";
+//字体设置
+$font-family-base :微软雅黑;
+//背景颜色
+$background:#f5f5f5;
+//通用
+*{
+  margin:0;
+  padding:0;
+}
+
+@mixin a {
+  &:link,&:visited,&:hover,&:active{
+    text-decoration: none;
+    cursor:pointer;
+  }
+}
+@mixin span{
+  display:inline-block;
+}
+@mixin li{
+  list-style:none;
+  cursor: pointer;
+}
+//宽高
+@mixin size($width,$height,$line-height){
+  width: $width;
+  height:$height;
+  line-height: $line-height;
+}

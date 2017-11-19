@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  cursor: pointer; }
+
+span {
+  display: inline-block; }
+
+li {
+  list-style: none;
+  cursor: pointer; }
+
+body {
+  font-family: 微软雅黑;
+  background: #f5f5f5; }
+
+#zj_1 .zj_title {
+  background: #fff;
+  width: 100%; }
+  #zj_1 .zj_title li {
+    padding: 0px 15px;
+    width: "";
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eee; }
+    #zj_1 .zj_title li:first-child a {
+      display: inline-block;
+      text-align: center; }
+      #zj_1 .zj_title li:first-child a span {
+        color: #333;
+        font-size: 14px; }
+    #zj_1 .zj_title li:nth-child(2) {
+      width: "";
+      height: 60px;
+      line-height: 60px; }
+      #zj_1 .zj_title li:nth-child(2) span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 30px;
+        background: #db0000;
+        text-align: center;
+        color: #fff;
+        margin-right: 12px; }
+#zj_1 .zj_xq1 {
+  margin-top: 20px;
+  background: #fff;
+  width: 100%; }
+  #zj_1 .zj_xq1 li {
+    width: "";
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px;
+    position: relative;
+    border-bottom: 1px solid #eee; }
+    #zj_1 .zj_xq1 li span:first-child {
+      width: 23%;
+      color: #444444;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "PingFang SC"; }
+    #zj_1 .zj_xq1 li span.hm {
+      text-align: left;
+      color: #666;
+      font-size: 13px; }
+    #zj_1 .zj_xq1 li a {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      margin-top: -13px;
+      display: inline-block;
+      text-align: center;
+      width: 50px;
+      height: 24px;
+      line-height: 24px;
+      color: #e91313;
+      border: 1px solid #e91313;
+      border-radius: 5px; }
+      #zj_1 .zj_xq1 li a span {
+        color: #e91313 !important; }
+
+/*# sourceMappingURL=zj_yc1.css.map */
